@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mlwpython-amin"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Porto <bruno.porto.data@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mlwpython_amin"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.3.0"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+pandas = "^2.0.3"
+xgboost = "^1.7.6"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
